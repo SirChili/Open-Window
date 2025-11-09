@@ -16,7 +16,8 @@ int main() {
     std::vector<sf::Color> colors = { sf::Color::Blue, sf::Color::Red, sf::Color::Black, sf::Color::Magenta };
     int randomizer = rand() % colors.size();
 
-	sf::Font font("E:\\Tony's Stuff\\.cpp files\\repos\\SFML\\Fonts\\spicy_sale\\SpicySale.ttf");
+	//input SpicySale.ttf path in here
+	sf::Font font("SpicySale.ttf");
     sf::Text text(font);
     text.setString("WHATSSS UPPPPP CHATTTT");
 	text.setCharacterSize(70);
@@ -57,3 +58,4 @@ int main() {
 
     return 0;
 }
+
